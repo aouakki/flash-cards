@@ -1,0 +1,27 @@
+<%include header-tmpl %>
+
+<div class="ui segment">
+<div class="ui top attached label">Add a new card</div>
+<form class="ui form" action="/add" method="post">
+  <div class="field">
+    <label for="question">Question</label>
+    <textarea name="question" id="question" rows="2"  ></textarea>
+  </div>
+  <div class="field">
+    <label for="answer"> Answer </label>
+    <textarea name="answer" id="answer" rows="8" ></textarea>
+  </div>
+  <button type="submit"  class="ui primary button">
+    <i class="icon send"></i>
+  Save
+</button>
+<button class="ui button">
+  Discard
+</button>
+
+</form>
+
+
+</div>
+
+<%include footer-tmpl %>

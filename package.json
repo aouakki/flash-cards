@@ -1,0 +1,22 @@
+{
+  "name": "flash-cards-app",
+  "version": "1.0.0",
+  "description": "flash cards for computer science ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "ouakki",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.6",
+    "express": "^4.14.1",
+    "express-session": "^1.15.1",
+    "json-validation": "^1.0.4",
+    "mysql": "^2.13.0",
+    "web-schema": "^1.1.1"
+  }
+}
